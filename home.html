@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <style>
+         body{
+            padding: 0;
+            margin: 0;
+            background-color: white;
+         }
+         
+         .top{
+            height: 150px;
+         }
+
+         .logo{
+            margin-top: 12px;
+            flex: 0.09;
+            margin-bottom: 12px;
+         }
+
+         h1{
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(78, 124, 188);
+            color: white;
+            padding: 30px 30px;
+            margin: 0;
+         }
+
+         nav {
+            background-color: rgb(49, 78, 118);
+            overflow: hidden;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 0 16px 3px rgb(0, 0, 0, 0.5);
+        }
+
+        nav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 12px 28px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            border: 1px;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .isi{
+            display: flex;
+        }
+
+        .explanation{
+            flex: 0.85;
+            height: auto;
+            width: auto;
+        }
+
+        h2{
+            text-align: center;
+            font-family: 'Times New Roman', serif;
+            font-size: 28px;
+        }
+
+        .explanation p{
+            width: 1000px;
+            text-align: justify;
+            margin-top: 25px;
+            font-size: 16px;
+        }
+
+        p{
+            color: rgb(80, 80, 80);
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .decor{
+            width: 500px;
+            border-radius: 10px;
+            margin-left: 285px;
+        }
+
+        .border{
+            flex: 0.05;
+        }
+
+        .bottom{
+            margin-top: 40px;
+            background-color: rgb(235, 235, 235);
+            height: 200px;
+            align-items: center;
+            display: flex;
+            width: auto;
+        }
+
+        .others{
+            background-color: rgb(235, 235, 235);
+            margin-top: 25px;
+            align-items: center;
+            padding: 0px 20px 0px 20px;
+            height: auto;
+            width: auto;
+            display: none;
+        }
+
+        .others2{
+            background-color: white;
+            padding: 0px 4px 0px 4px;
+        }
+
+        .LioClinic{
+            flex: 0.25;
+            margin-left: 100px;
+        }
+
+        .Lainnya{
+            flex: 0.25;
+        }
+
+        li{
+            list-style: none;
+            font-size: 14px;
+            padding: 6px;
+        }
+
+        .top{
+            display: flex;
+        }
+
+        .border2{
+            flex: 0.375;
+        }
+
+        input{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 250px;
+            border: 2px solid black;
+        }
+
+        .search{
+            margin-top: 50px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .others{
+                display: block;
+            }
+
+            .border{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="Images/Lio Clinic Logo.png" class="logo" alt="">
+        <div class="border2"></div>
+        <input type="text" placeholder="Search more from Lio Clinic...">
+        <img src="Images/searchicon.png" width="50px" height="50px" class="search" alt="">
+    </div>
+    <div>
+        <h1>Hubungan Hipertensi, Sistem Organ, dan Olahraga</h1>
+        <nav>
+            <a href="home.html">HOME</a>
+            <a href="penyakit.html">PENYAKIT</a>
+            <a href="analisa.html">ANALISA</a>
+            <a href="pengobatan.html">PENGOBATAN</a>
+            <a href="solusi.html">SOLUSI</a>
+            <a href="sumber.html">SUMBER</a>
+        </nav>
+    </div>
+    <div class="isi">
+        <div class="border"></div>
+        <div class="explanation">
+            <h2>Mengapa Hipertensi Merupakan Masalah yang Besar?</h2>
+            <img src="Images/Checkup.jpg" class="decor" alt="">
+            <p>Hipertensi merupakan penyakit kardiovaskular paling umum di seluruh dunia. Menurut data dari World Health Organization (2021) sekitar 1,28 milyar dewasa yang berumur 30-79 tahun mempunyai hipertensi dan kebanyakan dari mereka  hidup di negara berkembang [1]. Dari informasi ini, kita bisa menyimpulkan bahwa lebih dari 16% dari populasi dunia mempunyai hipertensi (belum terhitung orang-orang yang dibawah umur 30 dan diatas 79 tahun). Selain itu, menurut World Health Organization (2021) Indonesia peringkat ke-empat untuk peningkatan hipertensi antara tahun 1990-2019 untuk perempuan (sebanyak 12%, seri dengan Tuvalu) [2]. </p>
+        </div>
+        <div class="others">
+            <p>Advertisement</p>
+            <img src="Images/Advertisement.png" width="225px" alt="">
+            <div class="others2">
+                <h4>Artikle Lainnya</h4>
+                <p>Check out other articles <br> published by Lio Clinic.</p>
+                <ul>
+                    <li><a href="">Cara mencegah <br> diabetes?</a></li>
+                    <li><a href="">Hubungan anemia <br> dengan pola makan</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="LioClinic">
+            <h3>Lio Clinic</h3>
+            <h4><a href="">Tentang Kami</a></h4>
+            <h4><a href="">Hubungi Kami</a></h4>
+        </div>
+        <div class="Lainnya">
+            <h3>Lainnya</h3>
+            <h4><a href="">Privasi & Keamanan</a></h4>
+            <h4><a href="">Syarat & Ketentuan</a></h4>
+            <h4><a href="">Gabung sebagai dokter</a></h4>
+        </div>
+        <div class="MediaSosial">
+            <h3>Media Sosial</h3>
+            <img src="Images/Instagram.png" width="30px" alt="">
+            <img src="Images/Youtube.png" width="30px" alt="">
+            <img src="Images/Twitter.png" width="30px" alt="">
+        </div>
+    </div>
+</body>
+</html>
